@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CODE | Apeejay School NOIDA</title>
+    <meta name="description"
+          content="Code is an annual IT symposium hosted by Apeejay School, Noida. Ever since our founding in 1999 we have retained the position of Delhi-NCR's most awaited IT symposium. With over 50 schools from across Delhi-NCR, we make it bigger and better each year. ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#040a14">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css"/>
+    <!--<script src="scripts/script.js"></script>-->
+</head>
+<body style="background-image: url(assets/website_back.gif); background-repeat: repeat">
+<header>
+    <div class="container" id="navbar">
+        <div class="header-right" style="font-family: Westminster, sans-serif">
+            <h1>CODE</h1>
+        </div>
+        <div class="header-right">
+            <ul class="list-unsettled">
+                <li><a href="#intro" style="text-decoration: none">About</a></li>
+                <li><a href="#Events" style="text-decoration: none">Events</a></li>
+                <li><a href="#schedule" style="text-decoration: none">Schedule</a></li>
+                <li>
+                    <a href="https://forms.gle/GKVojpQVyqmm69K88" style="text-decoration: none">Register</a>
+                </li>
+                <li>
+                    <a href="https://script.google.com/macros/s/AKfycbySBji_fm_5qzkQQoFFywrHiymDqseHZaCcxCe11Lh_m_IggBnKOWWT1ueYbsY8E4ch/exec"
+                       style="text-decoration: none">Submission</a></li>
+            </ul>
+
+        </div>
+    </div>
+</header>
+
+<div id="bg-full">
+    <div id="center-text-start" style="display: inline-block">
+        <!--<img class="image-code1" src="assets/SkoolLOGO.png"><br>
+        <img class="image-code" src="assets/LOGOcode.png">-->
+        <h1>CODE</h1>
+
+        <p style="font-family: Westminster, serif" class="header-top">November 16-17, 2021</p>
+    </div>
+
+    <canvas class="background"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+</div>
+<script>
+    $(".header-right").hide();
+    window.onscroll = function () {
+        console.log(document.body.scrollTop)
+        // $("#navbar").slideUp();
+        if (document.documentElement.scrollTop > 100) {
+            $(".header-right").fadeIn()
+            $("#center-text-start").fadeOut(150);
+        } else {
+            $(".header-right").fadeOut()
+            $("#center-text-start").fadeIn(150);
+        }
+    }
+
+    function message() {
+        alert('Brochure yet to be finalised and uploaded.')
+    }
+</script>
+
+
+<div id="intro">
+    <h1 style="font-family: Westminster, serif;font-weight: bold;font-size: 2em" class="header-top">CODE</h1>
+
+    <div>Code is an annual IT symposium hosted by Apeejay School, Noida. Ever since our founding in 1999 we have
+        retained the position of Delhi-NCR's most awaited IT symposium. With over 50 schools from across Delhi-NCR, we
+        make it bigger and better each year.
+    </div>
+
+    <div>A team of skilled, dextrous and technologically enthusiastic students, the constituents of CODE club, become
+        the reason behind the grand success of CODE every year. CODE Club was started in Apeejay School Noida by its
+        computer department with a group of 6 students in 1999 with a motive of excelling in the field of computers
+        under the visionary support of late Dr. Stya Paul and technical expertise of Mrs. Sushma Berlia, President,
+        Apeejay Education Society.
+    </div>
+    <div style="color: #b4a5a5; font-size: 25px"><i>Technologically Curious?</i></div>
+</div>
+<div id="intro2">
+
+    <div><h1>80+</h1><br> Members</div>
+    <div><h1>50+ </h1><br>Schools</div>
+    <div><h1>900+</h1><br> Participants</div>
+    <div><h1>20+</h1><br> Awards</div>
+
+</div>
+
+
+<section id="Events" class="hero is-halfheight ">
+
+
+    <div class="hero-body">
+
+        <div class="container">
+            <h1>Events</h1>
+            <hr width="100%">
+            <div class="columns">
+                <figure class="column image image8" data-toggle="modal" data-target="#keynoteModal"
+                        style="-webkit-filter: invert(1); filter: invert(1);">
+                    <h1><p>Keynote</p></h1>
+                    <br>
+                    <p> Open</p></h1></figure>
+                <figure class="column image image11" data-toggle="modal" data-target="#quizModal">
+                    <h1><p>Quiz</p></h1>
+                    <br>
+                    <p> Open</p></h1></figure>
+                <figure class="column image image4" data-toggle="modal" data-target="#programmingModal">
+                    <h1><p>CODE++</p></h1>
+                    <br>
+                    <p> Open</p></h1></figure>
+                <figure class="column image image3" data-toggle="modal" data-target="#appD">
+                    <h1><p>App Development</p></h1>
+                    <br>
+                    <p> Open</p></h1></figure>
+            </div>
+            <div class="columns">
+                <figure class="column image image2" data-toggle="modal" data-target="#gamingModal">
+                    <h1><p>Gaming</p></h1>
+                    <br>
+                    <p> Open</p></h1></figure>
+                <figure class="column image image6" data-toggle="modal" data-target="#movieModal">
+                    <h1><p>Movie Making</p></h1>
+                    <br>
+                    <p> Open</p></h1></figure>
+                <figure class="column image image1" data-toggle="modal" data-target="#webDModal">
+                    <h1><p>WebD</p></h1>
+                    <br>
+                    <p> Open</p></h1></figure>
+                <figure class="column image image9" data-toggle="modal" data-target="#canvas">
+                    <h1><p>Picturesque Canvas</p></h1>
+                    <br>
+                    <p> Open</p></h1></figure>
+            </div>
+            <div class="columns">
+                <figure class="column image image13" data-toggle="modal" data-target="#sprite">
+                    <h1><p>Stirring Sprite</p></h1>
+                    <br>
+                    <p> Open</p></h1></figure>
+                <figure class="column image image10" data-toggle="modal" data-target="#trapModal">
+                    <h1><p>CookQuise</p></h1>
+                    <br>
+                    <p> Open</p></h1></figure>
+                <figure class="column image image12" data-toggle="modal" data-target="#EncredxModal">
+                    <h1><p>Encredx</p></h1>
+                    <br>
+                    <p> Open</p></h1></figure>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="schedule" style="background-color: black;text-align: center;">
+
+    <img src="assets/schedule-to-be-declared.png" style="margin:10px"><br>
+    <!--<a href ="assets/brochure.pdf"><strong>Download Brochure</strong></a>-->
+    <a href="assets/brochure.pdf" class="GFG">
+        Download Brochure
+    </a>
+</section>
+
+<footer id="footer">
+
+
+    <p><strong>Address : </strong>Film City, Sector 16A, Noida, Uttar Pradesh 201301</p>
+    <div class="social">
+        <p>Our Socials</p>
+        <a href="https://www.facebook.com/codeapjn/">
+            <div class="fa fa-facebook-official"></div>
+        </a>
+        <a href="https://instagram.com/codeclubapj?utm_medium=copy_link">
+            <div class="fa fa-instagram"></div>
+        </a>
+        <a href="https://twitter.com/2k19Apjn">
+            <div class="fa fa-twitter"></div>
+        </a>
+        <a href="https://discord.gg/M4hdJgKF25">
+            <img src="assets/Discord-Logo+Wordmark-White1.png" style="width: 35px;height:35px;">
+        </a>
+    </div>
+</footer>
+<!-- Web Design -->
+<div class="modal fade" id="webDModal">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Web Developmemt Rules</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <p><strong>TEAMS PER SCHOOL: </strong>1</p>
+                <p><strong>MEMBERS PER TEAM: </strong>2</p>
+                <p>
+                    “A designer knows he has achieved perfection not when there is nothing left to add, but when there
+                    is nothing left to take away” - Antonie De-Saint Exupery</p>
+                <p>
+                    In this event, all participants are expected to design and code a modern and responsive website on
+                    any one of the following problem statements:</p>
+                <ol type="A">
+                    <li>API Development Platform:</li>
+
+                    <ol style="margin-left: 50px;">
+                        <li>Develop a web application for api testing by using a graphical user interface for HTTP
+                            client
+                            testing requests to achieve various types of answers and will have to be validated
+                            afterwards.
+                            The results are to be obtained appropriately and formatted in json form. An idea can be
+                            taken
+                            from the Postman API platform.
+                        </li>
+                        <li>It should support the basic GET/POST/PUT/REST api requests. Every step of the API lifecycle
+                            should be simplified and improved so better APIs can be built. It should enable the user to
+                            create their own APIs and manage the API lifecycle, including versioning, documentation,
+                            testing
+                            and packaging.
+                        </li>
+                    </ol>
+                    <li>Digitization of Education for all</li>
+                    <ol style="margin-left: 50px">
+                        <li>Providing access to quality education and expanding learning opportunities for the
+                            students of the underserved communities in both rural and urban areas continue to be
+                            a major challenge.
+                        </li>
+                        <li>Address the following issues while designing the website.</li>
+                        <li>Problems with traditional teaching.</li>
+                        <li>Lack of resources.</li>
+                        <li>Economic Divide.</li>
+                        <li>Spread awareness about this issue and propose a real-world solution promoting digital
+                            education for the same.
+                        </li>
+                    </ol>
+                </ol>
+                <p><strong>RULES: </strong></p>
+                <li>Website should have at least three complete external links. (One-page websites should have at
+                    least 5 different sections.)
+                </li>
+                <li>Additional research on problem statements is appreciated, but we request participants to stick
+                    to the main agenda.
+                </li>
+                <li>Please follow the submission timeline as late entries won't be validated.</li>
+                <li>Plagiarism and templates are strictly prohibited.</li>
+                <li>The subject of the email must clearly mention the school name, branch name and the participant’s
+                    name.
+                </li>
+                <li>The file must be saved in the following filename format:</li>
+                <ol style="margin-left: 50px">
+                    <li>Originality</li>
+                    <li>Creativity and Improvisation</li>
+                    <li>Research Efforts and Presentation</li>
+                    <li>Responsiveness and Functionality</li>
+                    <li>Design and concept</li>
+                </ol>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- App Development -->
+<div class="modal fade" id="appD">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">App Development Rules</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <p><strong>DOMAIN: </strong>Open</p>
+                <p><strong>TEAMS ALLOWED PER SCHOOL: </strong>1</p>
+                <p><strong>NO. OF PARTICIPANTS: </strong>2</p>
+                <p><strong>LAST DATE OF SUBMISSION: </strong></p>
+                <p><Strong>RULES:</Strong></p>
+                <li>Participants are required to pitch any application they have developed, to the judges.</li>
+                <li>Participants will only be given 10 minutes to present their application, in which they should
+                    explain the working, the design and the code behind it to the judges.
+                </li>
+                <li>Reuse of existing projects/pitches will lead to disqualification.</li>
+                <li>Application should have a working prototype.</li>
+                <li>“requirements.txt” must be COMPULSORILY submitted along with the application.</li>
+                <li>Any entry after the last date of submission will not be accepted.</li>
+                <li>Presentation must be openable on Microsoft Office.</li>
+
+                <p>JUDGEMENT CRITERIA: </p>
+                <li>Creativity</li>
+                <li>Design/ UI</li>
+                <li>Technology used</li>
+                <li>Real world application of the presented project.</li>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--Stirring Sprite -->
+<div class="modal fade" id="sprite">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Stirring Spirit Rules</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <p><strong>DOMAIN: </strong>Classes 5-6</p>
+                <p><strong>SOFTWARE PROVIDED: </strong>Scratch</p>
+                <p><strong>NO. OF PARTICIPANTS: </strong>1 per school</p>
+                <p><strong>TOPIC: </strong>31st Century World With Artificial Intelligence</p>
+                <p><strong>ROUNDS: </strong>Prelim (Offline Entry) and Finals (Live Online)</p>
+                <p><strong>Submission: </strong>.SB3 File Format (Preliminary Round)</p>
+                <p><strong>File Duration: </strong>2-3 Minutes</p>
+                <p><strong>Live Event: </strong>Theme presentation and discussion in Final Round (for top 6 teams).</p>
+                <p><Strong>GUIDELINES: </Strong></p>
+                <li>Only one entry should be sent from one school.</li>
+                <li>Late entries and multiple entries won’t be accommodated. Only first entry will be considered
+                    in case of multiple entries.
+                </li>
+                <li>Participants need to weave their ideas together on the given topic and present them creatively
+                    through Scratch.
+                </li>
+                <li>Email the .SB3 files for the preliminary round on or before November 11, 2021. Mention the event
+                    name as the Subject of mail.
+                </li>
+                <li>Files should be named as SS-School Name and Branch. E.g. SS-Apeejay School Noida.</li>
+                <li>The shortlisted teams will be informed by November 13, 2021 to participate in the final round on
+                    November 16, 2021.
+                </li>
+                <li>The following information should be shared in email besides the .SB3 file:</li>
+                <ol style="margin-left: 50px">
+                    <li>Name of participant</li>
+                    <li>Class & Section</li>
+                    <li>School name and complete address</li>
+                    <li>Name and contact number of Teacher Incharge</li>
+                </ol>
+                <li>Participants must present their original ideas. Plagiarism in any sort would lead to
+                    disqualification.
+                </li>
+                <li>Technical issues may please be addressed and managed at individual level. Final round participants
+                    would be expected to equip themselves in advance to manage the technical issues.
+                </li>
+                <li>Decision of the judge will be final and binding</li>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--Gaming -->
+<div class="modal fade" id="gamingModal">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Gaming Rules</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <p><strong>DOMAIN: </strong>Open</p>
+                <p><strong>TEAMS ALLOWED PER SCHOOL: </strong>1</p>
+                <p><strong>NO. OF PARTICIPANTS: </strong></p>
+                <p><Strong>RULES:</Strong></p>
+                <li>All participants need to join the discord server for live-communication purposes.</li>
+                <li>Any form of cheating would straight away lead to the disqualification of the team.</li>
+                <li>All players will be monitored from the server as well as individually spectated.</li>
+                <li>Players should have a strong and consistent internet connection. Typical gamer excuses like lag will
+                    not be considered until we observe an absurdly high ping ourselves
+                </li>
+                <li>Game names will be disclosed 4 days before the event on our website.</li>
+                <li>Due to CODE being an online event, participants will evidently use their own equipment. We will NOT
+                    be responsible in any way for potato incapable hardware, crippling software, lag, or high ping.
+                </li>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--Programming -->
+<div class="modal fade" id="programmingModal">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">CODE++ Rules</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <p><strong>DOMAIN: </strong>Open</p>
+                <p><strong>TEAMS ALLOWED PER SCHOOL: </strong>1</p>
+                <p><strong>NUMBER OF PARTICIPANTS PER TEAM: </strong>2</p>
+                <p><strong>LAST DATE OF SUBMISSION: </strong>2</p>
+                <p><strong>LANGUAGES ALLOWED: </strong>Python and Python-based frameworks</p>
+                <p><Strong>RULES:</Strong></p>
+                <li>Participants are required to pitch any software/application they have developed, to the judges.</li>
+                <li>10 product pitches will be shortlisted for the finals.</li>
+                <li>Participants will only be given 10 minutes to present their software, in which they should explain
+                    the working, the design and the code behind it to the judges.
+                </li>
+                <li>Reuse of existing projects/pitches will lead to disqualification.</li>
+                <li>Software/Application should have a working prototype.</li>
+                <li>The project can be uploaded to GitHub or can be zipped and uploaded to the Google Form on the CODE
+                    website.
+                </li>
+                <li>“requirements.txt” must be COMPULSORILY included.</li>
+                <li>Any entry after the last date of submission will not be accepted.</li>
+                <li>Presentation must be openable on Microsoft Office.</li>
+
+                <p><strong>JUDGEMENT CRITERIA: </strong></p>
+                <li>Creativity</li>
+                <li>Design/ UI</li>
+                <li>Technology used</li>
+                <li>Real world application of given software</li>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--Picturesque Canvas -->
+<div class="modal fade" id="canvas">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Picturesque Canvas Rules</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <p><strong>Domain: </strong>Classes 3-4</p>
+                <p><strong>Software: </strong>MS Paint</p>
+                <p><strong>No. Of Participants: </strong>2 per school</p>
+                <p><strong>Topic: </strong>Story Strip</p>
+                <p><strong>Rounds: </strong>Prelim (Offline Entry) and Final (Live Online)</p>
+                <p><strong>Submission: </strong>.JPEG File Format (Single File) for Preliminary Round</p>
+                <p><strong>Live Event: </strong>Story presentation and discussion in Final Round (for top 6 teams)</p>
+                <p><strong>Guidelines: </strong></p>
+
+                <li>Only one entry should be sent from one school. Late entries and multiple entries won’t be
+                    accommodated. Only first entry will be considered in case of multiple entries.
+                </li>
+                <li>Participants need to present a story in the form of Story Strip through their drawing in MS Paint
+                    and send it in .JPEG format (single file) for the preliminary round on or before November 11,
+                    2021.
+                </li>
+                <li>Entries must be emailed on or before November 11, 2021. Mention the event name as the Subject of
+                    mail.
+                </li>
+                <li>Files should be named as PC-School Name and Branch. E.g. PC-Apeejay School Noida.</li>
+                <li>The shortlisted teams will be informed by November 13, 2021 to participate in the final round on
+                    November 16, 2021.
+                </li>
+
+                <li>The following information should be shared in email besides the image:</li>
+                <ol type="1" style="margin-left: 50px">
+                    <li>Name of participant</li>
+                    <li>Class & Section</li>
+                    <li>School name and complete address</li>
+                    <li>Name and contact number of Teacher-In-charge.</li>
+                </ol>
+                <li>Plagiarism and use of readily available images would lead to disqualification.</li>
+                <li>Technical issues may please be addressed and managed at individual level.</li>
+                <li>Final round participants would be expected to equip themselves in advance to manage the technical
+                    issues.
+                </li>
+                <li>Decision of the judge will be final and binding.</li>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--Movie Making-->
+<div class="modal fade" id="movieModal">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Movie Making Rules</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <p><strong>TOPIC: </strong>Time Travel</p>
+                <p><strong>TEAMS ALLOWED PER TEAM: </strong>1</p>
+                <p><strong>MEMBERS PER TEAM: </strong>2</p>
+                <p><strong>TIME: </strong>5 mins</p>
+                <p><strong>STORY OPENING: </strong></p>
+                <p style="margin-left: 30px">
+                    You are on a road, and it is 2021, suddenly a shape of hand throws you 2 years back..........
+                </p>
+
+                <p><strong>RULES: </strong></p>
+                <li>The event will strongly judge your visual storytelling skills, more preference
+                    and weightage will be given to unique and different ideas irrespective of production quality.
+                </li>
+                <li>There is no theme for the competition. However, the application of "stop motion" technique is
+                    necessary.
+                </li>
+                <li>Students are advised to stay home and maintain social distance if shooting in a team.</li>
+                <li>Maximum time limit is 5 mins, please try to adhere to the time limit.</li>
+                <li>The subject of the email must clearly mention the school name, branch name and the participant’s
+                    name.
+                </li>
+                <li>The movie file must be saved in the following filename format: -</li>
+                <ol style="margin-left: 50px">
+                    <li>School name_Branch_Movie<br>Example: Apeejay_Noida_Movie</li>
+                </ol>
+                <li>The content of the movie should not be negative.</li>
+                <li>There should be no form of plagiarism or copying.</li>
+                <li>The decision of the Judge will be final and binding.</li>
+                <p><strong>JUDGEMENT CRITERIA: </strong></p>
+                <ol style="margin-left: 50px">
+                    <li>Originality</li>
+                    <li>Performance skills</li>
+                    <li>Justification with the topic</li>
+                    <li>Visual appeal</li>
+                </ol>
+
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--Keynote-->
+<div class="modal fade" id="keynoteModal">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Keynote Rules</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <p><strong>DOMAIN: </strong>Open</p>
+                <p><strong>TEAMS ALLOWED PER SCHOOL: </strong>1</p>
+                <p><strong>NO. OF PARTICIPANTS PER TEAM: </strong>5 (Web Designing – 2; Digital Imaging – 1;
+                    Presentation - 2)</p>
+                <p><strong>LAST DATE OF SUBMISSION: </strong></p>
+                <p><strong>TIME ALLOTTED: </strong>6 minutes + Q&A</p>
+                <p><strong>ROUNDS: </strong>
+                <li>Elimination: Top 10 teams proceed ahead</li>
+                <li>Finals: Three teams emerge victorious</li>
+                </p>
+                <p><strong>TOPIC: </strong></p>
+                <p><strong>EXECUTION: </strong>: Participants must create a presentation on their concept of
+                    such software. NO WORKING SOFTWARE PROTOTYPE IS REQUIRED. It must
+                    be an investor-pitch-style presentation where only the idea is presented. A
+                    product render/UI-design must be created for the Digital Imaging section.
+                    Adobe Photoshop/Adobe Illustrator is to be used and a .psd/ .ai file must be
+                    submitted. Participants may create marketing samples for bonus points. For
+                    the Web Designing segment, participants must design a webpage for their
+                    product. Elements from Digital Imaging may be included here but DI will still
+                    be individually judged.</p>
+                <p><strong>RULES: </strong>
+                <li>The judge's decision(s) will be final, binding, and unarguable.</li>
+                <li>Use of templates and closed-source assets is forbidden and will lead to
+                    disqualification
+                </li>
+                </p>
+
+                <p><strong>JUDGEMENT CRITERIA: </strong>(total 50 points)</p>
+                <li>Presentation: (15 points) [must be openable on Microsoft Office]</li>
+                <li class="padding">Creativity, design, quality, problem solving, originality & demonstration skills
+                </li>
+                <li>Digital Imaging: (15 points)</li>
+                <li class="padding">Originality, ease of using the UI for the common person</li>
+                <li>Web Designing: (15 points)</li>
+                <li class="padding">Responsiveness, creativity, originality, user experience</li>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--Encredx-->
+<div class="modal fade" id="EncredxModal">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Encredx</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <p><strong>Domain: </strong>Open</p>
+                <p><strong>No. Of Participants: </strong>1</p>
+                <h3>Rules:</h3>
+                <li>This is an online cryptic hunt.</li>
+                <li>All the answers should be in lowercase and without spaces.</li>
+                <li>The hunt will go live on the website https://encredx.codeapj.club on 23rd July 00:00hrs till 24th
+                    July 00:00hrs.
+                </li>
+                <li>The person at the top of the leaderboard at the end of the hunt, will be declared as the winner.
+                </li>
+                <li>There can be only one winner.</li>
+
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--Robotics -->
+<div class="modal fade" id="trapModal">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">CookQuise Rules</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <p><strong>DOMAIN: </strong>Open</p>
+                <p><strong>Teams allowed per school: </strong>2</p>
+                <p><strong>Max. Participants: </strong>2</p>
+                <p><strong>TIME: </strong></p>
+                <p><strong>Platform: </strong>TinkerCAD, Falstad</p>
+                <p><strong>RULES:</strong></p>
+                <li>CookQuise is a Circuit Hunt. On each level, participants would be given prompts on which they would
+                    have to design and simulate circuits.
+                </li>
+                <li>Whoever solves the most levels wins. In case of a tie the time taken to solve would be
+                    considered.
+                </li>
+                <li>Once you think you have solved a particular level you may submit the  circuit ‘sharing link’ on
+                    our platform.
+                </li>
+                <li>You will be given access to the next prompt if your execution is correct and if not, the same will
+                    be conveyed to you. A hint may be given depending on the attempt.
+                </li>
+                <li>The prompts would involve the following-  Designing, Coding and Troubleshooting given
+                    Circuits.
+                </li>
+
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--quiz modal-->
+<div class="modal fade" id="quizModal">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Quiz Rules</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+
+                <p><strong>DOMAIN: </strong>IX-XII</p>
+                <p><strong>TEAMS ALLOWED PER SCHOOL: </strong>1</p>
+                <p><strong>NO. OF PARTICIPANTS: </strong>1</p>
+                <p><strong>RULES: </strong></p>
+
+                <li>All participants will be monitored on Zoom and should be connected with audio and video. Hands and
+                    faces of the
+                    participants should be clearly visible.
+                </li>
+                <li>No technical issues will be entertained; participants to ensure there is no technical issue at the
+                    time of the event
+                </li>
+                <li>Any team found using any unfair means will be disqualified with immediate effect.</li>
+                <li>The decision of the Quizmaster will be final and binding.</li>
+
+                <p><strong>PRELIMS ROUND: </strong></p>
+                <li>Time Duration: 30 mins</li>
+                <li>It will be an online crossword</li>
+                <li>The link for the crossword will be provided to the participants.</li>
+                <li>Clues will be given, and participants will have to give the answers based on the clues.</li>
+                <li>Questions will be related to IT.</li>
+
+                <p><strong>FINAL ROUND: </strong></p>
+                <li>Top six participants will qualify for the finals.</li>
+                <li>The questions will be displayed on the screen and will be read out by the quizmaster.</li>
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
